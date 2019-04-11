@@ -21,7 +21,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">My feed</h1>
+          <h1 className="App-title">My latest news</h1>
         </header>
         <News news={this.state.news1} />
         <News news={this.state.news2} />
